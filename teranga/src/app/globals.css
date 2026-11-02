@@ -1,0 +1,4 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-creme text-charbon; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
